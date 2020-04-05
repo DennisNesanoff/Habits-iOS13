@@ -13,6 +13,7 @@
 		8DC291D4243A269600BAA0B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC291D2243A269600BAA0B6 /* Main.storyboard */; };
 		8DC291D6243A269700BAA0B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC291D5243A269700BAA0B6 /* Assets.xcassets */; };
 		8DC291D9243A269700BAA0B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC291D7243A269700BAA0B6 /* LaunchScreen.storyboard */; };
+		8DC291E2243A2C3000BAA0B6 /* Habits.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DC291E0243A2C3000BAA0B6 /* Habits.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8DC291D5243A269700BAA0B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DC291D8243A269700BAA0B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DC291DA243A269700BAA0B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC291E1243A2C3000BAA0B6 /* Habits.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Habits.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				8DC291D2243A269600BAA0B6 /* Main.storyboard */,
 				8DC291D5243A269700BAA0B6 /* Assets.xcassets */,
 				8DC291D7243A269700BAA0B6 /* LaunchScreen.storyboard */,
+				8DC291E0243A2C3000BAA0B6 /* Habits.xcdatamodeld */,
 				8DC291DA243A269700BAA0B6 /* Info.plist */,
 			);
 			path = "Habits-iOS13";
@@ -140,6 +143,7 @@
 			files = (
 				8DC291D1243A269600BAA0B6 /* ViewController.swift in Sources */,
 				8DC291CD243A269600BAA0B6 /* AppDelegate.swift in Sources */,
+				8DC291E2243A2C3000BAA0B6 /* Habits.xcdatamodeld in Sources */,
 				8DC291CF243A269600BAA0B6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +342,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DC291E0243A2C3000BAA0B6 /* Habits.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DC291E1243A2C3000BAA0B6 /* Habits.xcdatamodel */,
+			);
+			currentVersion = 8DC291E1243A2C3000BAA0B6 /* Habits.xcdatamodel */;
+			path = Habits.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8DC291C1243A269600BAA0B6 /* Project object */;
 }
